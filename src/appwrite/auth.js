@@ -3,11 +3,11 @@ import conf from "../conf/conf";
 import { Client, Account,ID} from 'appwrite';
 
 export class AuthService{
-    client=new this.client();
+    client=new Client();
     account;
     constructor(){
         this.client
-         .setEndPoint(conf.appwriteUrl)
+         .setEndpoint(conf.appwriteUrl)
          .setProject(conf.appwriteProjectId)
          this.account=new Account(this.client);
     }
