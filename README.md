@@ -12,3 +12,6 @@
   -login
   -logout
   -getAccount
+# Created class to provides configuration services
+  created class to provide services like-
+  updatePost,DeletePost,getPost,createFile,deleteFile,getFilePreview
