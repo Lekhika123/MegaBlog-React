@@ -17,3 +17,6 @@
   updatePost,DeletePost,getPost,createFile,deleteFile,getFilePreview
 # Configured store
    Created AuthSlice with login & logout reducer
+# Created Components
+  -created header Wwith conditional logout button rendering
+  -created input field using forward reference 
