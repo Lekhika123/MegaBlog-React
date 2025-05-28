@@ -23,3 +23,7 @@
   -created Login ,SignUp using react hook form
   -created reusable components like postCard,input ,select,button
   -Added authentication layout for authenticated rendering
+
+# Added pages
+  Added pages for addpost, edit post, allpost, home, login, post and signup
+
