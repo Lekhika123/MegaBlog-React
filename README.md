@@ -18,5 +18,8 @@
 # Configured store
    Created AuthSlice with login & logout reducer
 # Created Components
-  -created header Wwith conditional logout button rendering
+  -created header with conditional logout button rendering
   -created input field using forward reference 
+  -created Login ,SignUp using react hook form
+  -created reusable components like postCard,input ,select,button
+  -Added authentication layout for authenticated rendering
