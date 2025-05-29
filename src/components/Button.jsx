@@ -2,6 +2,7 @@ import React from "react";
 
 export default function Button({
     children,
+    // eslint-disable-next-line no-unused-vars
     type = "button",
     bgColor = "bg-blue-600",
     textColor = "text-white",
