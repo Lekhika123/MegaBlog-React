@@ -1,9 +1,12 @@
 import React from 'react'
+import logo from '../assets/logo.png'; 
 
-// eslint-disable-next-line no-unused-vars
-function Logo({width = '100px'}) {
+ 
+function Logo({width = '50px'}) {
   return (
-    <div>Logo</div>
+    <div>
+      <img className={` rounded-4xl max-h-10 ${width}`} src={logo} alt="LOGO" />
+    </div>
   )
 }
 
